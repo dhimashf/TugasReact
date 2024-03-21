@@ -1,0 +1,122 @@
+/*Style Home*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #c2dec2;
+    
+}
+.Nav {
+    
+    background-color: #003300; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    display: flex;
+    justify-content: space-between; /* Membuat elemen berada di sebelah kanan dan kiri */
+    align-items: center; /* Pusatkan vertikal */
+    height: 80px;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+}
+.Nav h2{
+    font-size: 36px;
+}
+/* Style logo */
+.logo h2 {
+    margin: 0; /* Hilangkan margin default */
+    margin-left: 100px;
+}
+.logouin{
+    display: inline-block; /* Ubah gambar menjadi elemen blok */
+    margin:  auto; /* Pusatkan gambar horizontal */
+    max-width: 10%; /* Lebar maksimum gambar */
+    max-height:10%; /* Tinggi maksimum gambar */
+    height: auto; /* Tinggi otomatis */
+    border-radius: 10%; /* Mengubah bentuk gambar menjadi bulat */
+    overflow: hidden; /* Memastikan gambar tetap dalam bentuk bulat */
+    border: 3px solid #3b935e;
+    position: fixed; /* Atur posisi absolut */
+    top: 0px; /* Sesuaikan posisi dari atas */
+    left: 20px; /* Sesuaikan posisi dari kiri */
+    z-index: 1000;
+}
+
+.Nav ul {
+    list-style-type: none; /* Hapus tanda daftar */
+    margin-right: 50px;
+    background: transparent;
+    
+}
+.Nav ul li {
+    display: inline-block; /* Atur agar tautan berbaris horizontal */
+    margin-left: 20px; /* Jarak antar tautan */
+    font-size: 20px;
+}
+.Nav ul li:first-child {
+    margin-left: 0; /* Hapus margin kiri dari elemen pertama */
+}
+.Nav ul li a {
+    color: #fff; /* Warna teks */
+    text-decoration: none; /* Hapus garis bawah pada tautan */
+    transition: color 0.3s; /* Efek transisi warna teks saat dihover */
+}
+.Nav ul li a:hover {
+    color: lightskyblue; /* Warna teks saat dihover */
+    font-style: italic;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.footer {
+    background-color: #2f3930; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks footer */
+    text-align: center; /* Pusatkan teks */
+    position: fixed; /* Posisi footer tetap */
+    bottom: 0; /* Menempatkan footer di bagian bawah */
+    width: 100%; /* Lebar footer 100% dari viewport */
+}
+.container {
+    width: 100%; /* Lebar maksimum kontainer */
+    margin: 0 auto; /* Pusatkan kontainer */
+}
+/*Galeri*/
+.clearfix {
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    flex-wrap: wrap;
+}
+
+.img-container {
+    margin-top: 100px;
+    flex: 0 0 calc(33.33% - 10px); /* Setiap gambar akan mendapatkan 1/3 lebar container dengan jarak padding 5px */
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center; /* Pusatkan gambar di dalam container */
+}
+.img-container img {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    max-width: 100%; /* Pastikan gambar tidak melebihi lebar container */
+    height: auto; /* Biarkan tinggi gambar disesuaikan dengan proporsi aslinya */
+    border: 3px solid white ;
+    border-radius: 10px;
+
+}
+.img-container2 {
+    margin-bottom: 100px;
+    flex: 0 0 calc(33.33% - 10px); /* Setiap gambar akan mendapatkan 1/3 lebar container dengan jarak padding 5px */
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center; /* Pusatkan gambar di dalam container */
+}
+.img-container2 img {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    max-width: 100%; /* Pastikan gambar tidak melebihi lebar container */
+    height: auto; /* Biarkan tinggi gambar disesuaikan dengan proporsi aslinya */
+    border: 3px solid white ;
+    border-radius: 10px;
+}

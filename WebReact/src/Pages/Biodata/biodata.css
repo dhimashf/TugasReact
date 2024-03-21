@@ -1,0 +1,188 @@
+/*Style Home*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #c2dec2;
+    
+}
+.Nav {
+    
+    background-color: #003300; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    display: flex;
+    justify-content: space-between; /* Membuat elemen berada di sebelah kanan dan kiri */
+    align-items: center; /* Pusatkan vertikal */
+    height: 80px;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+}
+.Nav h2{
+    font-size: 36px;
+}
+/* Style logo */
+.logo h2 {
+    margin: 0; /* Hilangkan margin default */
+    margin-left: 100px;
+}
+.logouin{
+    display: inline-block; /* Ubah gambar menjadi elemen blok */
+    margin:  auto; /* Pusatkan gambar horizontal */
+    max-width: 10%; /* Lebar maksimum gambar */
+    max-height:10%; /* Tinggi maksimum gambar */
+    height: auto; /* Tinggi otomatis */
+    border-radius: 10%; /* Mengubah bentuk gambar menjadi bulat */
+    overflow: hidden; /* Memastikan gambar tetap dalam bentuk bulat */
+    border: 3px solid #3b935e;
+    position: fixed; /* Atur posisi absolut */
+    top: 0px; /* Sesuaikan posisi dari atas */
+    left: 20px; /* Sesuaikan posisi dari kiri */
+    z-index: 1000;
+}
+
+.Nav ul {
+    list-style-type: none; /* Hapus tanda daftar */
+    margin-right: 50px;
+    background: transparent;
+}
+.Nav ul li {
+    display: inline-block; /* Atur agar tautan berbaris horizontal */
+    margin-left: 20px; /* Jarak antar tautan */
+    font-size: 20px;
+}
+.Nav ul li:first-child {
+    margin-left: 0; /* Hapus margin kiri dari elemen pertama */
+}
+.Nav ul li a {
+    color: #fff; /* Warna teks */
+    text-decoration: none; /* Hapus garis bawah pada tautan */
+    transition: color 0.3s; /* Efek transisi warna teks saat dihover */
+}
+.Nav ul li a:hover {
+    color: lightskyblue; /* Warna teks saat dihover */
+    font-style: italic;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.footer {
+    background-color: #2f3930; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks footer */
+    text-align: center; /* Pusatkan teks */
+    position: fixed; /* Posisi footer tetap */
+    bottom: 0; /* Menempatkan footer di bagian bawah */
+    width: 100%; /* Lebar footer 100% dari viewport */
+}
+.container {
+    width: 100%; /* Lebar maksimum kontainer */
+    margin: 0 auto; /* Pusatkan kontainer */
+}
+
+/* Style Biodata */
+/* Style tabel */
+.tabel {
+    border-collapse: collapse;
+    margin-top: 50px; /* Jarak antara tabel dengan elemen di atasnya */
+    margin-bottom: 50px; /* Jarak antara tabel dengan elemen di bawahnya */
+}
+
+.tabel h2 {
+    margin-top: 100px;
+    text-align: center; /* Pusatkan teks judul tabel */
+    margin-bottom: 20px; /* Jarak antara judul tabel dengan isi tabel */
+    font-size: 24px; /* Ukuran font judul tabel */
+}
+
+table {
+    width: 80%; /* Lebar tabel */
+    margin: 0 auto; /* Pusatkan tabel secara horizontal */
+    border-collapse: collapse; /* Gabungkan garis-garis batas sel dalam tabel */
+    overflow: hidden; /* Hilangkan overflow jika ada */
+}
+
+table td, table th {
+    padding: 10px; /* Padding antara konten dan batas sel */
+    border: 3px solid #000000; /* Garis batas antara sel */
+}
+
+table th {
+    background-color: #4edb4e; /* Warna latar belakang header */
+    color: #fff; /* Warna teks header */
+    font-weight: bold; /* Tebalkan teks header */
+    text-align: left; /* Pusatkan teks header ke kiri */
+}
+.box-pendidikan {
+    text-align: center;
+    color: #000000;
+    width: 80%;
+    margin-top: 30px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.box-pendidikan .boxes {
+    display: flex;
+}
+
+.box-kiri img {
+    max-width: 40%;
+    border-radius: 200px;
+}
+.box-tengah img {
+    max-width: 40%;
+    border-radius: 200px;
+}
+.box-kanan img {
+    max-width: 40%;
+    border-radius: 200px;
+}
+.box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 1rem;
+    padding: 30px 30px;
+    border-radius: 15px ;
+    margin-bottom: 150px;
+}
+/* Style hover effect for box-kiri */
+.box-kiri:hover {
+    transform: scale(1.05); /* Menambahkan efek scaling */
+    transition: transform 0.3s ease; /* Efek transisi untuk smooth scaling */
+    background-color: #017730;
+    color: white;
+}
+
+/* Style hover effect for box-tengah */
+.box-tengah:hover {
+    transform: scale(1.05); /* Menambahkan efek scaling */
+    transition: transform 0.3s ease; /* Efek transisi untuk smooth scaling */
+    background-color: #017730;
+    color: white;
+}
+
+/* Style hover effect for box-kanan */
+.box-kanan:hover {
+    transform: scale(1.05); /* Menambahkan efek scaling */
+    transition: transform 0.3s ease; /* Efek transisi untuk smooth scaling */
+    background-color: #017730;
+    color: white;
+}
+.box-pendidikan h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+
+
+
+
